@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin1 {
+  margin-left: 50px;
+}
+
+.margin2 {
+  margin-left: 100px;
+}
+
+.margin3 {
+  margin-left: 150px;
+}
+
+body {
+  background-color: #000000;
+  background: url(../images/5-dots.png);
+  padding: 80px;
+  color: #e7e7de;
+}
+body #inicio {
+  animation-name: caida;
+  animation-duration: 0.9s;
+}
+body #inicio #cabecera {
+  display: grid;
+  grid-template-columns: 1fr 18%;
+  height: 500px;
+}
+body #inicio #cabecera #encabezados {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+body #inicio #cabecera #menu {
+  animation-name: caida;
+  animation-duration: 0.4s;
+}
+body #inicio #cabecera #menu ul {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  list-style: none;
+  text-align: right;
+}
+body #inicio #cabecera #menu ul li {
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+body section {
+  margin-top: 170px;
+  padding-top: 30px;
+}
+body #quiensoy #datos {
+  display: flex;
+  flex-flow: column wrap;
+}
+body #trayectoria ul {
+  margin-left: 50px;
+}
+body #footer {
+  margin-top: 170px;
+  text-align: center;
+  font-family: "BebasNeue";
+  font-size: 28px;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=styles.css.map */

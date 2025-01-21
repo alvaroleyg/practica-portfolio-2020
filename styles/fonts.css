@@ -1,0 +1,110 @@
+/* fuente de código */
+@font-face{
+    font-family: "CourierPrime";
+    src: url(../fonts/Courier_Prime/CourierPrime-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*normal grande y alegre */
+@font-face{
+    font-family: "Spartan";
+    src: url(../fonts/Spartan/static/Spartan-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* normal pero elegante */
+@font-face{
+    font-family: "Oxanium";
+    src: url(../fonts/Oxanium/Oxanium-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* cuadrada y gorda */
+@font-face{
+    font-family: "Audiowide";
+    src: url(../fonts/Audiowide/Audiowide-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* normal, alegre y elegante */
+@font-face{
+    font-family: "MondaRegular";
+    src: url(../fonts/Monda/Monda-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* solo mayusculas, alta , estrecha pero gorda */
+@font-face{
+    font-family: "BebasNeue";
+    src: url(../fonts/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* FUENTES GENERALES */
+.fontcode{
+    text-align: left;
+    font-family: "CourierPrime";
+    font-size: 22px;
+    color: #6d8ac7;
+}
+
+.fontcode2{
+    color: #ffefa0;
+}
+
+
+/* FUENTES CABECERA */
+#encabezados h1{
+    font-family: "Oxanium";
+    letter-spacing: 3px;
+    /* flex-basis: 130px;   */
+    color: #e95c73;
+    text-shadow: 6px 6px 2px #36161b, -2px -2px 1px #fca8b6;
+    font-size: 88px;
+    transition: 0.7s;
+}
+#encabezados h2{
+    font-family: "Audiowide";
+    /* flex-basis: 90px;    */
+    color: #e7e7de;
+    text-shadow: 0px 0px 3px #a5a58e;
+    font-size: 38px;
+    transition: 0.7s;
+    letter-spacing: 7px;
+}
+#encabezados h3{
+    font-family: "Spartan";
+    /* flex-basis: 100px;   */
+    color: #8aafe0;
+    text-shadow: 3px 3px 1px #1f2b3a, -1px -1px 1px #b1d3ff;
+    font-size: 44px;
+    transition: 0.7s;
+}
+#encabezados h1:hover,
+#encabezados h3:hover{
+    transform: scale(1.1);
+}
+
+#encabezados h2:hover {
+    transform: scale(1.4);
+}
+
+#menu ul > li > a{
+    font-family: "Oxanium";
+    text-transform: uppercase;
+    color: #666;
+    font-size: 28px;
+    transition: all 0.2s;
+}
+#menu ul > li > a:hover{
+    color: #e7e7de;
+    text-shadow: 0px 0px 2px white;
+    animation: blinkLight 0.3s;
+}
